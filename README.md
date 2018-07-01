@@ -1,2 +1,2 @@
-# pyutils
-Utility classes from some Python projects
+# pycommon
+Common utility classes from some Python projects
