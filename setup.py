@@ -4,8 +4,8 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="pycommon",
-    version="0.0.1",
+    name="pycommon_andreacioni",
+    version="0.0.2",
     author="Andrea Cioni",
     description="Common utility classes from some Python projects",
     long_description=long_description,
