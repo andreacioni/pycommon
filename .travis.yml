@@ -1,0 +1,13 @@
+language: python
+  python:
+    - "3.6"
+  script:
+    - pytest
+
+  deploy:
+    provider: pypi
+    user: "andreacioni"
+    password: 
+      secret: "Your password"
+    on:
+      tags: true
