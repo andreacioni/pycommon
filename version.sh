@@ -15,7 +15,7 @@ read NEW_VERSION
 
 echo "New version is: $NEW_VERSION"
 
-sed -i "s/$CURRENT_VERSION/$NEW_VERSION/g" $FILE
+sed -i '' "s/$CURRENT_VERSION/$NEW_VERSION/g" $FILE
 git add $FILE
 
 git commit -m "Releasing v$NEW_VERSION"
