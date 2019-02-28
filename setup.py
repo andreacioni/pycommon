@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="pycommon_andreacioni",
-    version="0.0.2",
+    version="0.0.3",
     author="Andrea Cioni",
     description="Common utility classes from some Python projects",
     long_description=long_description,
